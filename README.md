@@ -7,10 +7,16 @@ movie-reactjs is an app like (Instagram/Imdb) , you can see your favorite movies
 
 <h1>Installation Guide: </h1>  <br/>
 1.Build packages and project<br/>
-```npm init``` <br/> <br/>
+```
+npm init
+``` 
+<br/> <br/>
 2.Put API Url in config.json File (located in ./src/config.json)  <br/> <br/>
 3.Start the project<br/>
-```npm start```<br/> <br/>
+```
+npm start
+``` 
+<br/> <br/>
 
 <hr/>
 
