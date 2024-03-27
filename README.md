@@ -30,5 +30,5 @@ npm start
 - And more...
 
 
-Back-end is coded by [@Vector-Fa](https://www.github.com/Vector-Fa) ,Project link : [movie-api](https://github.com/Vector-Fa/quiz-maker)
+Back-end is coded by [@Vector-Fa](https://www.github.com/Vector-Fa) ,Project link : [quiz-maker](https://github.com/Vector-Fa/quiz-maker)
 
