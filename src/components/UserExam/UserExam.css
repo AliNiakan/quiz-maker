@@ -1,0 +1,115 @@
+.user-exam-done-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.user-exam-done-btn {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 15px;
+    width: 80%;
+}
+
+.user-exam-done-btn:hover {
+    background-color: #45a049;
+}
+
+.user-exam-done-btn.disabled {
+    background-color: #ccc;
+    color: #003366;
+    cursor: not-allowed;
+}
+
+
+@media screen and (min-width:768px) {
+    .user-exam-done-btn-container button {
+        width: 55%;
+    }
+
+}
+
+
+.cooldown-timer {
+    position: sticky;
+    left: 10px;
+    top: 5px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #003366;
+    padding: 3px 6px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    z-index: 1000;
+}
+
+@media screen and (min-width: 768px) {
+    .cooldown-timer {
+        margin: 10px auto;
+        font-size: 16px;
+    }
+}
+
+.user-exam-title-container {
+    margin: 20px 20px;
+}
+
+.user-exam-title {
+    font-size: 20px;
+}
+
+.user-exam-username-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: right;
+
+    direction: rtl;
+}
+
+.user-exam-username-container p {
+    font-family: 'Vazirmatn', sans-serif;
+    margin: 0;
+    font-weight: bold;
+}
+
+.user-exam-username-container label {
+    font-family: 'Vazirmatn', sans-serif;
+
+    display: block;
+    margin-top: 10px;
+}
+
+.user-exam-username-container input {
+    font-family: 'Vazirmatn', sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-exam-username-container input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+
+@media screen and (min-width:768px) {
+    .user-exam-username-container input {
+        width: 20%;
+    }
+}

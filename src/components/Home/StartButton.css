@@ -1,0 +1,50 @@
+.start-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-btn {
+    font-family: Vazirmatn, sans-serif;
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 200px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+@media screen and (min-width:768px) {
+    .start-btn {
+        padding: 30px 50px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .start-btn {
+        margin-top: 150px;
+        padding: 30px 70px;
+    }
+}
+
+
+.start-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.start-btn:active {
+    background-color: #1e7e34;
+}
+
+.start-btn .plus-icon {
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}

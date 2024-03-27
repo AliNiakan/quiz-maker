@@ -1,0 +1,32 @@
+
+.error-container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ff3333;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #ffe6e6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.error-title {
+    color: #ff3333;
+    font-size: 24px;
+}
+
+.error-message {
+    color: #333;
+    font-size: 16px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

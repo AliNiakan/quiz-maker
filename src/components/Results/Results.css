@@ -1,0 +1,20 @@
+.results-card-container {
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 10px;
+
+}
+
+.results-card-container a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+
+@media screen and (min-width:768px) {
+    .results-card-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

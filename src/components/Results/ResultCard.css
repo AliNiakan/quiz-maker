@@ -1,0 +1,53 @@
+.result-card {
+    background-color: #2b82b1;
+    border: 1px solid #0d7bb6;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 3px 0 rgba(0, 0, 0, 0.4);
+    text-align: center;
+    margin: 10px;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+    
+    transition: transform .2s; 
+}
+
+.result-card:hover {
+        transform: scale(1.1);
+}
+
+@media screen and (min-width: 768px) {
+    .result-card {
+        margin: 10px;
+    }
+}
+
+.result-card-name {
+
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    color: #ffc000;
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+}
+
+@media screen and (max-width: 768px) {
+    .result-card-name {
+        font-size: 18px;
+    }
+}
+
+.result-card-score {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.score-number {
+    font-size: 24px;
+    color: #f8f8f8;
+    margin: 0 5px;
+}

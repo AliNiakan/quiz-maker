@@ -1,0 +1,161 @@
+.add-question-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-question-title {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    align-items: center;
+    width: 100%;
+}
+
+.add-question-label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.add-question-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-question-mp,
+.add-question-descriptive {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.add-question-mp input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s ease-in-out;
+}
+
+.add-question-mp input:focus {
+    border-color: #007bff;
+}
+
+
+#question-type-select {
+    font-family: 'Vazirmatn', sans-serif;
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-question-content {
+    margin-top: 20px;
+}
+
+
+.add-question-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px
+}
+
+.descriptive-answer {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 5px 2px;
+    border-radius: 4px;
+    resize: none;
+}
+
+.descriptive-answer.long {
+    padding: 50px 20px;
+
+}
+
+.add-question-submit-btn,
+.back-btn {
+    font-family: 'Vazirmatn', sans-serif;
+    color: white;
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.add-question-submit-btn {
+    background-color: #007bff;
+}
+
+.back-btn {
+    background-color: #c91148;
+}
+
+
+.add-question-submit-btn:hover {
+    background-color: #0056b3;
+}
+
+.back-btn:hover {
+    background-color: #940e37;
+}
+
+
+.add-question-submit-btn:active {
+    background-color: #004c9e;
+}
+
+.back-btn:active {
+    background-color: #77092a;
+}
+
+.mp-option-buttons,
+.suffle-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+.add-option-button,
+.remove-option-button {
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 16px;
+}
+
+
+
+.add-option-button {
+    background-color: #4CAF50;
+}
+
+.remove-option-button {
+    background-color: #f44336;
+}
+
+.correct-option-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}

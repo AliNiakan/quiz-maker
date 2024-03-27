@@ -1,0 +1,49 @@
+.add-question-container,
+.exam-panel-container,
+.result-check-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.add-question-button,
+.exam-panel-button,
+.result-check-button {
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 20px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 12px 0;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-question-button:hover {
+    background-color: #45a049;
+}
+
+.exam-panel-container {
+    margin-bottom: 20px;
+}
+
+.exam-panel-button {
+    background-color: #0c8f72;
+}
+
+.exam-panel-button:hover {
+    background-color: #0b5f4d;
+}
+
+.result-check-button {
+    background-color: #0b395f
+}
+
+.result-check-button:hover {
+    background-color: #0a2b46;
+}

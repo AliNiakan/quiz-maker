@@ -1,0 +1,79 @@
+.navbar {
+    display: flex;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dfdfdf;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-title {
+    color: #131313;
+    padding-right: 10px;
+    user-select: none;
+}
+
+.menu-toggle {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #dfdfdf;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    position: absolute;
+    top: 92.5px;
+    left: 0;
+    width: 50%;
+    z-index: 1;
+    user-select: none;
+    border-bottom-right-radius: 20px;
+}
+
+.nav-links.open {
+    display: flex;
+}
+
+.link-button {
+    background: none;
+    text-align: right;
+    border: none;
+    padding: 0;
+    font: inherit;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+
+.nav-links a {
+    display: block;
+    padding: 10px 5px;
+    color: #131313;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-links {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        background-color: transparent;
+        box-shadow: none;
+        width: auto;
+    }
+
+    .nav-links a , .link-button÷ {
+        padding: 10px 20px;
+    }
+}

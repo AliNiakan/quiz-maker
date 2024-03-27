@@ -1,0 +1,20 @@
+.introduction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.introduction-text {
+    text-align: right;
+    font-size: 18px;
+}
+
+@media screen and (min-width:768px) {
+    .introduction-text {
+        font-size: 25px;
+    }
+
+}

@@ -1,0 +1,168 @@
+.exam-option-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 3px 4px 6px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    padding: 20px;
+}
+
+
+.exam-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exam-title-input {
+    padding: 5px;
+}
+
+
+
+.date-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.date-picker {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.duration-input,
+.link-exam-input,
+.exam-title-input,
+.password-input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+.duration-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.duration-input {
+    width: 30%;
+}
+
+.delete-exam-btn,
+.submit-exam-btn {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #ff5555;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.delete-exam-btn:hover {
+    background-color: #ff3333;
+}
+
+.submit-exam-btn {
+    background-color: #0c50aa;
+}
+
+.submit-exam-btn:hover {
+    background-color: #094491;
+}
+
+.link-exam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.link-exam-container p {
+    direction: ltr;
+    word-break: break-word;
+    cursor: pointer;
+
+}
+
+.link-exam-container p:hover,
+.link-exam-container p:active {
+    color: blue;
+    color: #0074E4;
+}
+
+.link-exam-input {
+    padding: 5px
+}
+
+
+
+.exam-toggle-button,
+.password-toggle-button,
+.shuffle-toggle-button{
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    margin-right: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.exam-toggle-button.inactive,
+.password-toggle-button.inactive,
+.shuffle-toggle-button.inactive {
+    background-color: #ff3333;
+
+}
+
+
+.password-exam-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.password-input {
+    padding: 5px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .exam-option-container {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .duration-input,
+    .link-exam-input,
+    .exam-title-input,
+    .password-input {
+        width: 100%
+    }
+
+}

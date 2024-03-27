@@ -1,0 +1,92 @@
+.ec-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.ec-container h1 {
+    color: #a3a3a3;
+    text-align: center;
+    align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    .ec-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+
+.exam-card {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .exam-card {
+        padding: 10px 20px;
+        margin-right: 10px;
+        width: calc(33.33% - 10px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .exam-card {
+        padding: 10px 20px;
+        margin-right: 10px;
+        width: calc(30% - 10px);
+    }
+}
+
+
+
+.exam-card:first-child {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+.exam-card:first-child .ec-count {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .exam-card:first-child {
+        width: 80%;
+    }
+}
+
+
+
+.ec-title {
+    font-size: 20px;
+    margin: 0;
+}
+
+
+
+.ec-count {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.ec-count span {
+    font-weight: bold;
+    color: #007bff;
+}
